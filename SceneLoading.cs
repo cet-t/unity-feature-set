@@ -8,12 +8,9 @@ namespace GameTitle
 {
     public class SceneLoading : MonoBehaviour
     {
-        [SerializeField]
-        GameObject panel;
-        [SerializeField]
-        Slider slider;
-        [SerializeField]
-        Button button;
+        [SerializeField] GameObject panel;
+        [SerializeField] Slider slider;
+        [SerializeField] Button button;
 
         public void LoadingNext()
         {
